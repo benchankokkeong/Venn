@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.visionfederation.venn.SquareImageView
+        android:id="@+id/imageViewAlbumBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/photo_album_background_selector_state" />
+
+    <TextView
+        android:id="@+id/photoAlbumNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:textColor="@drawable/photo_album_name_selector_state" >
+    </TextView>
+
+</FrameLayout><!-- From: file:/Users/kokkeongchan/StudioProjects/Venn/app/src/main/res/layout/view_photo_album_grid_item.xml -->

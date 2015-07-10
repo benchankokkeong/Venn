@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.visionfederation.venn"
+        minSdkVersion 21
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles 'proguard-android.txt', 'proguard-project.txt'
+        }
+    }
+}
+
+dependencies {
+    compile ("com.google.android.gms:play-services:7.5.0")
+            {
+                exclude group: 'com.android.support', module:'support-v4'
+            }
+    compile files('libs/android-support-v13.jar')
+    compile files('libs/pinchzoom.jar')
+}
