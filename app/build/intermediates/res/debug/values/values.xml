@@ -59,6 +59,12 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
+    <!-- From: file:/Users/kokkeongchan/StudioProjects/Venn/app/src/main/res/values/colours.xml -->
+    <eat-comment/>
+    <color name="federation_black">#000000</color>
+    <color name="federation_statusbar_blue">#0288D1</color>
+    <!-- From: file:/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values/values.xml -->
+    <eat-comment/>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>

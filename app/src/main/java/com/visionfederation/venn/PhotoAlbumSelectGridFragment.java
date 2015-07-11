@@ -62,6 +62,8 @@ public class PhotoAlbumSelectGridFragment extends Fragment implements
 		final View view = inflater.inflate(
 				R.layout.fragment_photo_album_select_grid, container, false);
 
+		getActivity().getWindow().setStatusBarColor(getResources().getColor(R.color.federation_black));
+
 		mGridView = (GridView) view.findViewById(R.id.photoAlbumSelectGridview);
 		mGridView.setAdapter(mPhotoAlbumGridAdapter);
 		mGridView.setOnItemClickListener(this);
@@ -128,8 +130,7 @@ public class PhotoAlbumSelectGridFragment extends Fragment implements
 	private void initialize() {
 		mPhotoAlbums = new ArrayList<PhotoAlbum>();
 		mAlbumHashes = new HashMap<String, String>();
-
-		Log.d("PhotoAlbumSelectGridFragment.initialize", ">>>>initializing...");
+        
 		PhotoManager photoManager = new PhotoManager(getActivity(), this);
 		photoManager.getAllDevicePhotoPropertiesAsync();
 
