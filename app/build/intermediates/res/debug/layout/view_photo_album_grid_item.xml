@@ -10,7 +10,8 @@
         android:layout_height="match_parent"
         android:layout_margin="20dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/photo_album_background_selector_state" />
+        android:outlineProvider="paddedBounds"
+        android:src="@drawable/photo_album_grid_background" />
 
     <TextView
         android:id="@+id/photoAlbumNameTextView"
@@ -21,7 +22,7 @@
         android:focusable="false"
         android:focusableInTouchMode="false"
         android:gravity="center"
-        android:textColor="@drawable/photo_album_name_selector_state" >
+        android:textColor="@color/federation_white" >
     </TextView>
 
 </FrameLayout><!-- From: file:/Users/kokkeongchan/StudioProjects/Venn/app/src/main/res/layout/view_photo_album_grid_item.xml -->

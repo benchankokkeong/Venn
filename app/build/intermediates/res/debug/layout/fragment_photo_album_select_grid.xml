@@ -10,12 +10,12 @@
         android:layout_height="match_parent"
         android:animateLayoutChanges="true"
         android:background="#000000"
-        android:drawSelectorOnTop="false"
+        android:drawSelectorOnTop="true"
         android:gravity="center"
         android:horizontalSpacing="0dp"
-        android:listSelector="#00000000"
         android:numColumns="2"
         android:stretchMode="columnWidth"
-        android:verticalSpacing="0dp" />
+        android:verticalSpacing="0dp"
+        />
 
 </RelativeLayout><!-- From: file:/Users/kokkeongchan/StudioProjects/Venn/app/src/main/res/layout/fragment_photo_album_select_grid.xml -->

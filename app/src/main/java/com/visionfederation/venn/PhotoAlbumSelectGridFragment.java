@@ -66,6 +66,7 @@ public class PhotoAlbumSelectGridFragment extends Fragment implements
 
 		mGridView = (GridView) view.findViewById(R.id.photoAlbumSelectGridview);
 		mGridView.setAdapter(mPhotoAlbumGridAdapter);
+		mGridView.setSelector(getResources().getDrawable(R.drawable.photo_album_grid_selector));
 		mGridView.setOnItemClickListener(this);
 
 		return view;

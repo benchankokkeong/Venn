@@ -246,8 +246,9 @@ public class MainActivity extends Activity implements
 				}
 			}
 
-			final ImageView mainImageView = (ImageView) rootView
-					.findViewById(R.id.imageViewMain);
+			//final ImageView mainImageView = (ImageView) rootView.findViewById(R.id.imageViewMain);
+			final ImageButton mainImageView = (ImageButton) rootView.findViewById(R.id.imageButtonFabMain);
+
 			if (mainImageView != null) {
 				mainImageView.setOnClickListener(new View.OnClickListener() {
 					@Override

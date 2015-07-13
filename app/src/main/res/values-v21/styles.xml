@@ -10,4 +10,18 @@
         <item name="android:colorPrimaryDark">@color/federation_statusbar_blue</item>
     </style>
 
+    <style name="MainFloatingActionButton" parent="android:Widget.Material.Button">
+        <item name="android:background">@drawable/main_fab_background</item>
+        <item name="android:stateListAnimator">@anim/fab_selector</item>
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+    </style>
+
+    <style name="FloatingActionButton" parent="android:Widget.Material.Button">
+        <item name="android:background">@drawable/floating_action_button_background</item>
+        <item name="android:stateListAnimator">@anim/fab_selector</item>
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+    </style>
+
 </resources>
