@@ -36,6 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:gravity="center"
+        android:textColor="@android:color/black"
         android:text="@string/version" />
 
     <TextView
@@ -43,6 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:gravity="center"
+        android:textColor="@android:color/black"
         android:text="@string/link_vision_federation" />
 
 </LinearLayout>

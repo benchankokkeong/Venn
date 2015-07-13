@@ -60,6 +60,8 @@ public class PhotoSelectGridFragment extends Fragment implements
 				container, false);
 		final ViewGroup viewGroup = container;
 
+		getActivity().getWindow().setStatusBarColor(getResources().getColor(R.color.federation_black));
+
 		mGridView = (GridView) view.findViewById(R.id.photoSelectGridview);
 		mGridView.setAdapter(mPhotoGridAdapter);
 		mGridView.setOnItemClickListener(this);

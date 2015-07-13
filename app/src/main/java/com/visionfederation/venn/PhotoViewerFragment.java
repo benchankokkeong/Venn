@@ -33,6 +33,8 @@ public class PhotoViewerFragment extends Fragment {
 				.getApplicationContext(), mPhotosList);
 		mViewPager.setAdapter(mPhotoViewerAdapter);
 
+		getActivity().getWindow().setStatusBarColor(getResources().getColor(R.color.federation_black));
+
 		initialize();
 
 		return mViewPager;

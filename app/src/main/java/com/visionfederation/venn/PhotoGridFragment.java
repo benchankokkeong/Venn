@@ -60,6 +60,8 @@ public class PhotoGridFragment extends Fragment implements
 		final View view = inflater.inflate(R.layout.fragment_photo_grid,
 				container, false);
 
+		getActivity().getWindow().setStatusBarColor(getResources().getColor(R.color.federation_black));
+
 		mGridView = (GridView) view.findViewById(R.id.photoGridview);
 		mGridView.setAdapter(mPhotoGridAdapter);
 		mGridView.setOnItemClickListener(this);

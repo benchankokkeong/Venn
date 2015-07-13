@@ -130,7 +130,7 @@ public class PhotoAlbumSelectGridFragment extends Fragment implements
 	private void initialize() {
 		mPhotoAlbums = new ArrayList<PhotoAlbum>();
 		mAlbumHashes = new HashMap<String, String>();
-        
+
 		PhotoManager photoManager = new PhotoManager(getActivity(), this);
 		photoManager.getAllDevicePhotoPropertiesAsync();
 
