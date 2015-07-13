@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/kokkeongchan/StudioProjects/Venn/app/src/main/res/values-v21/styles.xml -->
+    <!-- From: file:/Users/ben/StudioProjects/Venn/app/src/main/res/values-v21/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Material">
         <!-- API 21 theme customizations can go here. -->
         <item name="android:colorPrimaryDark">@color/federation_statusbar_blue</item>
     </style>
-    <!-- From: file:/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v21/values.xml -->
+    <!-- From: file:/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v21/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance.Material"/>
     <style name="Base.TextAppearance.AppCompat.Body1" parent="android:TextAppearance.Material.Body1"/>
@@ -297,6 +297,22 @@
     <style name="Base.Widget.AppCompat.TextView.SpinnerItem" parent="android:Widget.Material.TextView.SpinnerItem"/>
     <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation" parent="android:Widget.Material.Toolbar.Button.Navigation">
     </style>
+    <!-- From: file:/Users/ben/StudioProjects/Venn/app/src/main/res/values-v21/styles.xml -->
+    <eat-comment/>
+    <style name="FloatingActionButton" parent="android:Widget.Material.Button">
+        <item name="android:background">@drawable/floating_action_button_background</item>
+        <item name="android:stateListAnimator">@anim/fab_selector</item>
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+    </style>
+    <style name="MainFloatingActionButton" parent="android:Widget.Material.Button">
+        <item name="android:background">@drawable/main_fab_background</item>
+        <item name="android:stateListAnimator">@anim/fab_selector</item>
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+    </style>
+    <!-- From: file:/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v21/values.xml -->
+    <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme.Material">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>

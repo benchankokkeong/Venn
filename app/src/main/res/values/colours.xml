@@ -4,5 +4,7 @@
     <drawable name="federation_dark_orange">#EF613D</drawable>
     <color name="federation_statusbar_blue">#0288D1</color>
     <color name="federation_black">#000000</color>
+    <color name="federation_white">#FFFFFF</color>
+    <color name="federation_orange">#EF613D</color>
 
 </resources>

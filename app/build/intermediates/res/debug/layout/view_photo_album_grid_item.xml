@@ -24,4 +24,4 @@
         android:textColor="@drawable/photo_album_name_selector_state" >
     </TextView>
 
-</FrameLayout><!-- From: file:/Users/kokkeongchan/StudioProjects/Venn/app/src/main/res/layout/view_photo_album_grid_item.xml -->
+</FrameLayout><!-- From: file:/Users/ben/StudioProjects/Venn/app/src/main/res/layout/view_photo_album_grid_item.xml -->

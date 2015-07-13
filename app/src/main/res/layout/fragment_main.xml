@@ -4,15 +4,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.visionfederation.venn.MainActivity$PlaceholderFragment" >
+    tools:context="com.visionfederation.venn.MainActivity$PlaceholderFragment">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:gravity="center"
-        android:orientation="vertical" >
+        android:paddingBottom="10dp"
+        android:clipToPadding="false"
+        android:orientation="vertical">
 
+        <!--
         <ImageView
             android:id="@+id/imageViewMain"
             android:layout_width="100dp"
@@ -20,15 +23,29 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
             android:background="@drawable/main_portrait_2" />
+            -->
 
-        <ImageView
+        <ImageButton
+            android:id="@+id/imageButtonFabMain"
+            style="@style/MainFloatingActionButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:adjustViewBounds="true"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/venn_logo_orange" />
+
+        <ImageButton
             android:id="@+id/imageViewSelectButton"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_below="@id/imageViewMain"
+            style="@style/FloatingActionButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_below="@id/imageButtonFabMain"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp"
-            android:src="@drawable/select_grid_button"
+            android:src="@drawable/button_plus"
             android:visibility="invisible" />
     </RelativeLayout>
 
@@ -39,7 +56,7 @@
         android:layout_alignParentBottom="true"
         android:background="@drawable/main_menu_background"
         android:orientation="horizontal"
-        android:visibility="invisible" >
+        android:visibility="invisible">
 
         <ImageButton
             android:id="@+id/aboutButton"

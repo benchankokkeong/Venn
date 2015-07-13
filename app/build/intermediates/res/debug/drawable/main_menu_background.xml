@@ -4,6 +4,6 @@
 
     <corners android:radius="0dip" />
 
-    <solid android:color="#CCFFFFFF" />
+    <solid android:color="#00000000" />
 
-</shape><!-- From: file:/Users/kokkeongchan/StudioProjects/Venn/app/src/main/res/drawable/main_menu_background.xml -->
+</shape><!-- From: file:/Users/ben/StudioProjects/Venn/app/src/main/res/drawable/main_menu_background.xml -->
