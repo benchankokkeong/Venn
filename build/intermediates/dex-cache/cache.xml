@@ -2,179 +2,179 @@
 <items version="2" >
 
     <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d405025c600055237c171a0bbabaa49d69696573">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-7ff5c0c1bb5f7ae996f56c8770ea827119ff2af1.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/libs/pinchzoom.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a4def992b1f41525748db059dfdd21322cc3157e">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/pinchzoom-af9495290cc24605375a491a7902e30904814dce.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-3775a961ad52e79190f5fc79f049d000ce23615f.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-5b8f55ec6d77352d626f3109005678a5a8e4882d.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-b4f9c2d2d70802e40901a360142a59a58118788f.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-dc2418e5d5d4d8a2173d99d0f15233bf308fd9f0.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-5a778926224c6d473a03bd2830378322a5bfa811.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-e7c2e68399d26605510838e5f550ad03767a3ba6.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-bbdd5462893cd8bdfc7b0141525b84e17125e51a.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-5551d649f8098d8ab241ac0fe9c32c0f4de07a61.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-9b88256159eacb9e78f8282ad9816bff4591d06d.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-1aca8e990e1863219c57489474622f36d3ba93cf.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-16feedd1b4e8683b1423da68df36265141ec0963.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-d5c3a45d7d0e0dda8e5840d156bb9c7c804536ec.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a78183f30e769a98ab4820794f597763088d3065">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-094a96a1577591e079afd8328fbfc97408a548ef.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-3e29a053d696975984637e9ca4afd5ae9dbd9ac6.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-b8ce9c229ad4b6fa0b387acc5e7198a7f6b61d66.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-97a6245ec7a8af4e73b0bd5ac64b450447cd904d.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-9afa5f804886e3d9c21320a26330903153ee46b1.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/libs/android-support-v13.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f5fa2183e286730a81f3076f19022539902a24f3">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/android-support-v13-6d84a39702a750921ea53dd90e48f13d5be8634d.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-74b493fbdcf90f35caf99e87edcc833bae710ccf.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-03dfe9c66a7f8066bdbd104211c37d997a234dd5.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-13cc8ec729e5e64c82836da211aa5b8a067b77f4.jar" />
-    </item>
-    <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-d9f60a5ecbca51cf78f7568485e6d720d538e0b4.jar" />
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-db5d048b0ac446d51322d36c7a0a40727a1b5a93.jar" />
     </item>
     <item
-        jar="/Users/ben/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-743d7acf0060ad59aa2080f8368eff52ed71c2bd.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-000f6a14f6d2993f84e28b6b22773a14bf191741.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-48e1949d260cfb049e0f178b15c86dc47e52537b.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-8eb7c089213c33b4db537f6ac25494fb10aee37c.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-25193f916dba0e7d0681b893f9dd5fba3c713c7a.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-4efe3e7496dacf0cc73730ddc1b36da92b4ac7ef.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-0d72d98453a111f0bbe2416e32a25516d137e264.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-2c1c4c907feec5046a4723253c5c2958a91ef968.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-f6a672ae5cc9abc41c53a44b8275f78d4efc4e5f.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-cae707d09bebc3d92a1240864501a3e54697bdf0.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-2d7292966ed46001fb272592df4a9ec5e537a981.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-59093dfea59d25c4112de003912efd7be2a33ecc.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-7b22f0984d7d1edf48f6141ff94e83c9001b8dbe.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-8b8ead12367935564f57d590c531e1f706f5f4aa.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-0cfb90010a4d67865b705e083fd1c9147e303091.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/libs/android-support-v13.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f5fa2183e286730a81f3076f19022539902a24f3">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/android-support-v13-d1155e4e56daa92d97c788e897697715c99fbf05.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-ffb293188aa0d8486c7e06a19adbad10344e6d86.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/libs/pinchzoom.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a4def992b1f41525748db059dfdd21322cc3157e">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/pinchzoom-ec9fc94b646ade82dfbef0519786730d173234a2.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-9e792ef6f32b944297f9f84f5b301720b95cd670.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-2ec710f91045e07666050921913a824b546e0fdc.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-2ce4d9c8cbc8ac43ab79dddd3f78246612d3ac99.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-14ecf545ed773a8f6661b9d85a38f3066e066511.jar" />
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-1ccc6acac5b1b111ebbbad31c87190ab1122a059.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-c5ec6cdc1423de07d92a2fc30c057c5665f96ade.jar" />
+    </item>
+    <item
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/classes-931d3b184f062e6667e04db310d63a05502a01f3.jar" />
     </item>
 
 </items>
