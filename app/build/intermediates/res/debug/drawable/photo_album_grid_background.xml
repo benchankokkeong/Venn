@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="oval" >
-
-    <solid android:color="#E6EF5F3C" />
-
-</shape><!-- From: file:/Users/ben/StudioProjects/Venn/app/src/main/res/drawable/photo_album_grid_background.xml -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:colorControlHighlight">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#E6EF5F3C" />
+        </shape>
+    </item>
+</ripple><!-- From: file:/Users/ben/StudioProjects/Venn/app/src/main/res/drawable/photo_album_grid_background.xml -->

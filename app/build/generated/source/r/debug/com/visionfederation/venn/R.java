@@ -1761,8 +1761,8 @@ containing a value of this type.
         public static final int common_signin_btn_text_pressed_dark=0x7f020058;
         public static final int common_signin_btn_text_pressed_light=0x7f020059;
         public static final int drawer_shadow=0x7f02005a;
-        public static final int federation_blue=0x7f02009c;
-        public static final int federation_dark_orange=0x7f02009d;
+        public static final int federation_blue=0x7f02009d;
+        public static final int federation_dark_orange=0x7f02009e;
         public static final int floating_action_button_background=0x7f02005b;
         public static final int help_button=0x7f02005c;
         public static final int ic_cast_dark=0x7f02005d;
@@ -1819,15 +1819,16 @@ containing a value of this type.
         public static final int photo_album_background_selector_state=0x7f020090;
         public static final int photo_album_grid_background=0x7f020091;
         public static final int photo_album_grid_background_pressed=0x7f020092;
-        public static final int photo_album_name_selector_state=0x7f020093;
-        public static final int photo_grid_selector_button_background=0x7f020094;
-        public static final int photo_grid_selector_button_normal=0x7f020095;
-        public static final int powered_by_google_dark=0x7f020096;
-        public static final int powered_by_google_light=0x7f020097;
-        public static final int select_deselect_all_button=0x7f020098;
-        public static final int select_grid_icon=0x7f020099;
-        public static final int select_yes_button=0x7f02009a;
-        public static final int venn_logo_orange=0x7f02009b;
+        public static final int photo_album_grid_selector=0x7f020093;
+        public static final int photo_album_name_selector_state=0x7f020094;
+        public static final int photo_grid_selector_button_background=0x7f020095;
+        public static final int photo_grid_selector_button_normal=0x7f020096;
+        public static final int powered_by_google_dark=0x7f020097;
+        public static final int powered_by_google_light=0x7f020098;
+        public static final int select_deselect_all_button=0x7f020099;
+        public static final int select_grid_icon=0x7f02009a;
+        public static final int select_yes_button=0x7f02009b;
+        public static final int venn_logo_orange=0x7f02009c;
     }
     public static final class id {
         public static final int aboutButton=0x7f0c0069;
