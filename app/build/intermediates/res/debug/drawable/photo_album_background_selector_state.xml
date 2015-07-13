@@ -3,4 +3,4 @@
     <item android:drawable="@drawable/photo_album_grid_background_pressed" android:state_pressed="true"/>
     <item android:drawable="@drawable/photo_album_grid_background"/>
 
-</selector><!-- From: file:/Users/ben/StudioProjects/Venn/app/src/main/res/drawable/photo_album_background_selector_state.xml -->
+</selector><!-- From: file:/Users/kokkeongchan/StudioProjects/Venn/app/src/main/res/drawable/photo_album_background_selector_state.xml -->
