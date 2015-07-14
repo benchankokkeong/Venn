@@ -63,7 +63,7 @@
             android:layout_width="0px"
             android:layout_height="fill_parent"
             android:layout_weight="0.5"
-            android:background="@drawable/photo_grid_selector_button_normal"
+            android:background="@drawable/main_menu_button_background"
             android:padding="10dp"
             android:scaleType="fitCenter"
             android:src="@drawable/about_button" />

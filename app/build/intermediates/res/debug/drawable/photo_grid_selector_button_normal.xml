@@ -1,9 +1,9 @@
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
-    android:color="@color/federation_orange">
+    android:color="@color/federation_white">
     <item>
         <shape android:shape="rectangle">
             <corners android:radius="0dip" />
-            <solid android:color="#CCFFFFFF" />
+            <solid android:color="#CCEF5F3C" />
         </shape>
     </item>
-</ripple><!-- From: file:/Users/kokkeongchan/StudioProjects/Venn/app/src/main/res/drawable/photo_grid_selector_button_normal.xml -->
+</ripple><!-- From: file:/Users/ben/StudioProjects/Venn/app/src/main/res/drawable/photo_grid_selector_button_normal.xml -->

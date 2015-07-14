@@ -7,4 +7,4 @@
     android:divider="@android:color/transparent"
     android:dividerHeight="0dp"
     tools:context="com.example.drawernavtest.NavigationDrawerFragment" />
-<!-- From: file:/Users/kokkeongchan/StudioProjects/Venn/app/src/main/res/layout/fragment_navigation_drawer.xml -->
+<!-- From: file:/Users/ben/StudioProjects/Venn/app/src/main/res/layout/fragment_navigation_drawer.xml -->

@@ -19,10 +19,6 @@ android {
 }
 
 dependencies {
-    compile ("com.google.android.gms:play-services:7.5.0")
-            {
-                exclude group: 'com.android.support', module:'support-v4'
-            }
     compile files('libs/android-support-v13.jar')
     compile files('libs/pinchzoom.jar')
 }
