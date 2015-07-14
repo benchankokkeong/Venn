@@ -31,8 +31,8 @@ public class BitmapUtils {
 			// keeps both
 			// height and width larger than the requested height and width.
 			while ((halfHeight / inSampleSize) > requiredHeight
-					&& (halfWidth / inSampleSize) > requiredWidth) {
-				inSampleSize *= requiredInSampleSize;
+					|| (halfWidth / inSampleSize) > requiredWidth) {
+				inSampleSize *= 2;
 			}
 		}
 

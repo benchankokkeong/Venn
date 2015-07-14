@@ -110,16 +110,16 @@ public class PhotoViewerAdapter extends PagerAdapter {
 							loResImageView.getViewTreeObserver()
 									.removeOnGlobalLayoutListener(this);
 
-							int width = loResImageView.getMeasuredWidth();
-							int height = loResImageView.getMeasuredHeight();
+							int width;
+							int height;
 
 							if (orientation == Surface.ROTATION_90
 									|| orientation == Surface.ROTATION_270) {
-								width = loResImageView.getMeasuredWidth() / 2;
-								height = loResImageView.getMeasuredHeight() / 2;
+								width = loResImageView.getMeasuredWidth();
+								height = loResImageView.getMeasuredHeight();
 							} else {
-								width = loResImageView.getMeasuredWidth() / 4;
-								height = loResImageView.getMeasuredHeight() / 4;
+								width = loResImageView.getMeasuredWidth();
+								height = loResImageView.getMeasuredHeight();
 							}
 
 							loResImageView.setScaleType(ScaleType.FIT_CENTER);
