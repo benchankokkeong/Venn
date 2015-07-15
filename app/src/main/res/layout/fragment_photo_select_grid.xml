@@ -2,12 +2,49 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical">
+
+    <Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbarPhotoSelector"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/federation_orange"
+        android:elevation="5dp"
+        android:gravity="center_vertical"
+        android:minHeight="?android:attr/actionBarSize">
+
+        <ImageButton
+            android:id="@+id/imageButtonClosePhotoSelector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="16dp"
+            android:background="@drawable/ic_close_white_24dp" />
+
+        <ImageButton
+            android:id="@+id/imageButtonDeselectPhotoSelector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="16dp"
+            android:background="@drawable/ic_arrow_back_white_24dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textViewSelectedCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/federation_white" />
+
+    </Toolbar>
 
     <GridView
         android:id="@+id/photoSelectGridview"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
+        android:layout_below="@+id/toolbarPhotoSelector"
         android:animateLayoutChanges="true"
         android:background="#000000"
         android:drawSelectorOnTop="true"
@@ -23,7 +60,7 @@
         android:layout_height="42dp"
         android:layout_alignParentBottom="true"
         android:background="@drawable/main_menu_background"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/deselectAllButton"
