@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:animateLayoutChanges="true"
-        android:background="#000000"
+        android:background="@color/federation_white"
         android:drawSelectorOnTop="true"
         android:gravity="center"
         android:horizontalSpacing="0dp"
