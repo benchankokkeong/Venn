@@ -72,46 +72,47 @@ public final class R {
         public static final int venn_logo_orange=0x7f020024;
     }
     public static final class id {
-        public static final int aboutButton=0x7f0a0013;
-        public static final int action_example=0x7f0a0028;
-        public static final int action_settings=0x7f0a0027;
+        public static final int aboutButton=0x7f0a0014;
+        public static final int action_about=0x7f0a0029;
+        public static final int action_settings=0x7f0a0028;
         public static final int container=0x7f0a0007;
-        public static final int deselectAllButton=0x7f0a001d;
+        public static final int deselectAllButton=0x7f0a001e;
         public static final int drawer_layout=0x7f0a0006;
         public static final int firstIndicatorLayout=0x7f0a0002;
-        public static final int hiResImageView=0x7f0a0026;
-        public static final int imageButtonAcceptSelectedPhotos=0x7f0a001a;
-        public static final int imageButtonClosePhotoSelector=0x7f0a0017;
-        public static final int imageButtonDeselectPhotoSelector=0x7f0a0018;
-        public static final int imageButtonFabMain=0x7f0a0010;
-        public static final int imageViewAlbumBackground=0x7f0a0020;
-        public static final int imageViewSelectButton=0x7f0a0011;
+        public static final int hiResImageView=0x7f0a0027;
+        public static final int imageButtonAcceptSelectedPhotos=0x7f0a001b;
+        public static final int imageButtonClosePhotoSelector=0x7f0a0018;
+        public static final int imageButtonDeselectPhotoSelector=0x7f0a0019;
+        public static final int imageButtonFabMain=0x7f0a0011;
+        public static final int imageViewAlbumBackground=0x7f0a0021;
+        public static final int imageViewFabChildManualAddButton=0x7f0a0012;
         public static final int introDoneButton=0x7f0a0005;
         public static final int introFirstImageView=0x7f0a000c;
         public static final int introSecondImageView=0x7f0a000d;
         public static final int introThirdImageView=0x7f0a000e;
         public static final int introViewPager=0x7f0a0001;
-        public static final int loResImageView=0x7f0a0025;
+        public static final int loResImageView=0x7f0a0026;
         public static final int mainRelativeLayout=0x7f0a000f;
-        public static final int menuLinearLayout=0x7f0a0012;
+        public static final int menuLinearLayout=0x7f0a0013;
         public static final int navigation_drawer=0x7f0a0008;
-        public static final int photoAlbumNameTextView=0x7f0a0021;
-        public static final int photoAlbumSelectGridview=0x7f0a0014;
+        public static final int photoAlbumNameTextView=0x7f0a0022;
+        public static final int photoAlbumSelectGridview=0x7f0a0015;
         public static final int photoGridFragment=0x7f0a000a;
-        public static final int photoGridview=0x7f0a0015;
-        public static final int photoSelectControlsLinearLayout=0x7f0a001c;
-        public static final int photoSelectGridview=0x7f0a001b;
+        public static final int photoGridview=0x7f0a0016;
+        public static final int photoSelectControlsLinearLayout=0x7f0a001d;
+        public static final int photoSelectGridview=0x7f0a001c;
         public static final int photoSelectorFragment=0x7f0a0009;
-        public static final int photoView=0x7f0a0022;
-        public static final int photoViewSelector=0x7f0a0023;
-        public static final int photoViewerContainer=0x7f0a0024;
+        public static final int photoView=0x7f0a0023;
+        public static final int photoViewSelector=0x7f0a0024;
+        public static final int photoViewerContainer=0x7f0a0025;
         public static final int photoViewerFragment=0x7f0a000b;
-        public static final int photoViewerViewPager=0x7f0a001f;
+        public static final int photoViewerViewPager=0x7f0a0020;
         public static final int secondIndicatorLayout=0x7f0a0003;
-        public static final int selectYesButton=0x7f0a001e;
-        public static final int textViewSelectedCounter=0x7f0a0019;
+        public static final int selectYesButton=0x7f0a001f;
+        public static final int textViewSelectedCounter=0x7f0a001a;
         public static final int thirdIndicatorLayout=0x7f0a0004;
-        public static final int toolbarPhotoSelector=0x7f0a0016;
+        public static final int toolbarMain=0x7f0a0010;
+        public static final int toolbarPhotoSelector=0x7f0a0017;
         public static final int versionTextView=0x7f0a0000;
     }
     public static final class layout {
@@ -138,17 +139,18 @@ public final class R {
         public static final int main=0x7f090001;
     }
     public static final class string {
-        public static final int action_example=0x7f050000;
-        public static final int action_settings=0x7f050001;
-        public static final int app_name=0x7f050002;
-        public static final int link_venn=0x7f050003;
-        public static final int link_vision_federation=0x7f050004;
-        public static final int navigation_drawer_close=0x7f050005;
-        public static final int navigation_drawer_open=0x7f050006;
-        public static final int title_section1=0x7f050007;
-        public static final int title_section2=0x7f050008;
-        public static final int title_section3=0x7f050009;
-        public static final int version=0x7f05000a;
+        public static final int about=0x7f050000;
+        public static final int action_example=0x7f050001;
+        public static final int action_settings=0x7f050002;
+        public static final int app_name=0x7f050003;
+        public static final int link_venn=0x7f050004;
+        public static final int link_vision_federation=0x7f050005;
+        public static final int navigation_drawer_close=0x7f050006;
+        public static final int navigation_drawer_open=0x7f050007;
+        public static final int title_section1=0x7f050008;
+        public static final int title_section2=0x7f050009;
+        public static final int title_section3=0x7f05000a;
+        public static final int version=0x7f05000b;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
@@ -160,8 +162,9 @@ public final class R {
         
          */
         public static final int AppBaseTheme=0x7f060000;
-        public static final int AppTheme=0x7f060003;
+        public static final int AppTheme=0x7f060004;
         public static final int FloatingActionButton=0x7f060001;
         public static final int MainFloatingActionButton=0x7f060002;
+        public static final int Toolbar=0x7f060003;
     }
 }
