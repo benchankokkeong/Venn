@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import android.app.Activity;
 import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,7 +18,6 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ImageButton;
 import android.widget.TextView;
-import android.widget.Toolbar;
 
 import com.visionfederation.venn.photo.Photo;
 import com.visionfederation.venn.photo.PhotoManager;
@@ -33,12 +33,12 @@ public class PhotoSelectGridFragment extends Fragment implements
     private List<Integer> mSelectedPositions = new ArrayList<Integer>();
     private GridView mGridView;
     private ViewGroup mViewGroup;
-    private Toolbar mToolbar;
     private ImageButton mCloseButton;
     private ImageButton mDeselectAllBackButton;
     private ImageButton mAcceptSelectedPhotosButton;
     private TextView mSelectedPhotosCounterTextView;
     private boolean mIsSelectionMode = false;
+    private SelectorListener callback;
 
     private Handler mHandler = new Handler(Looper.getMainLooper()) {
         @Override
@@ -75,7 +75,6 @@ public class PhotoSelectGridFragment extends Fragment implements
 
         mViewGroup = container;
 
-        mToolbar = (Toolbar) view.findViewById(R.id.toolbarPhotoSelector);
         mCloseButton = (ImageButton) view.findViewById(R.id.imageButtonClosePhotoSelector);
         mCloseButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -128,6 +127,62 @@ public class PhotoSelectGridFragment extends Fragment implements
         return view;
     }
 
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        callback = (SelectorListener) activity;
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position,
+                            long id) {
+        Photo selectedPhoto = mPhotos.get(position);
+        if (mSelectedPhotos.contains(selectedPhoto)) {
+            removeSelectedPhoto(selectedPhoto, position, view);
+        } else {
+            enableSelectionMode();
+            addSelectedPhoto(selectedPhoto, position, view);
+        }
+    }
+
+    @Override
+    public void onDevicePhotoUrisFetched(List<String> uriStringList) {
+        if (uriStringList != null && !uriStringList.isEmpty()) {
+            for (String uriString : uriStringList) {
+                Photo photo = new Photo();
+                photo.setUri(UriUtils.getUriFromString(uriString));
+                mPhotos.add(photo);
+                mPhotoGridAdapter.addImage(photo);
+            }
+            mHandler.sendEmptyMessage(1);
+        }
+    }
+
+    @Override
+    public void onDevicePhotoPropertiesFetched(
+            List<HashMap<String, String>> photoPropertiesList) {
+        if (photoPropertiesList != null && !photoPropertiesList.isEmpty()) {
+            for (HashMap<String, String> photoPropertiesMap : photoPropertiesList) {
+                Photo photo = new Photo();
+                String photoIdString = (String) photoPropertiesMap
+                        .get(StorageUtils.Const.PHOTO_ID);
+                photo.setId(Long.valueOf(photoIdString));
+                photo.setUri(StorageUtils.getUriFromStorageId(photoIdString));
+                String photoBucketName = (String) photoPropertiesMap
+                        .get(StorageUtils.Const.PHOTO_BUCKET_NAME);
+                photo.setPhotoBucketName(photoBucketName);
+
+                mPhotos.add(photo);
+                mPhotoGridAdapter.addImage(photo);
+            }
+            mHandler.sendEmptyMessage(1);
+        }
+    }
+
+    public interface SelectorListener {
+        public void onPhotoSelectorClose();
+    }
+
     public boolean isHandlingBackButtonPressed() {
         if (mIsSelectionMode) {
             disableSelectionMode();
@@ -161,18 +216,6 @@ public class PhotoSelectGridFragment extends Fragment implements
         mAcceptSelectedPhotosButton.setVisibility(View.INVISIBLE);
         mSelectedPhotosCounterTextView.setVisibility(View.INVISIBLE);
         mCloseButton.setVisibility(View.VISIBLE);
-    }
-
-    @Override
-    public void onItemClick(AdapterView<?> parent, View view, int position,
-                            long id) {
-        Photo selectedPhoto = mPhotos.get(position);
-        if (mSelectedPhotos.contains(selectedPhoto)) {
-            removeSelectedPhoto(selectedPhoto, position, view);
-        } else {
-            enableSelectionMode();
-            addSelectedPhoto(selectedPhoto, position, view);
-        }
     }
 
     private void addSelectedPhoto(Photo selectedPhoto, int position, View view) {
@@ -244,44 +287,11 @@ public class PhotoSelectGridFragment extends Fragment implements
         // show progress spinner!!!
         //
         //
-
     }
 
     private void closeFragment() {
-        getActivity().getFragmentManager().popBackStack();
-    }
-
-    @Override
-    public void onDevicePhotoUrisFetched(List<String> uriStringList) {
-        if (uriStringList != null && !uriStringList.isEmpty()) {
-            for (String uriString : uriStringList) {
-                Photo photo = new Photo();
-                photo.setUri(UriUtils.getUriFromString(uriString));
-                mPhotos.add(photo);
-                mPhotoGridAdapter.addImage(photo);
-            }
-            mHandler.sendEmptyMessage(1);
-        }
-    }
-
-    @Override
-    public void onDevicePhotoPropertiesFetched(
-            List<HashMap<String, String>> photoPropertiesList) {
-        if (photoPropertiesList != null && !photoPropertiesList.isEmpty()) {
-            for (HashMap<String, String> photoPropertiesMap : photoPropertiesList) {
-                Photo photo = new Photo();
-                String photoIdString = (String) photoPropertiesMap
-                        .get(StorageUtils.Const.PHOTO_ID);
-                photo.setId(Long.valueOf(photoIdString));
-                photo.setUri(StorageUtils.getUriFromStorageId(photoIdString));
-                String photoBucketName = (String) photoPropertiesMap
-                        .get(StorageUtils.Const.PHOTO_BUCKET_NAME);
-                photo.setPhotoBucketName(photoBucketName);
-
-                mPhotos.add(photo);
-                mPhotoGridAdapter.addImage(photo);
-            }
-            mHandler.sendEmptyMessage(1);
-        }
+        //getActivity().getFragmentManager().popBackStack();
+        //getActivity().finish();
+        callback.onPhotoSelectorClose();
     }
 }

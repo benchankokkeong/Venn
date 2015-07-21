@@ -14,7 +14,7 @@ import com.visionfederation.venn.photo.Photo;
 import com.visionfederation.venn.photo.PhotoAlbum;
 
 public class SelectorActivity extends Activity implements
-        PhotoAlbumSelectGridFragment.OnPhotoAlbumGridItemClickedListener {
+        PhotoAlbumSelectGridFragment.OnPhotoAlbumGridItemClickedListener, PhotoAlbumSelectGridFragment.SelectorListener, PhotoSelectGridFragment.SelectorListener {
 
     private List<PhotoAlbum> mPhotoAlbums = new ArrayList<PhotoAlbum>();
     private List<Photo> mPhotos = new ArrayList<Photo>();
@@ -25,31 +25,6 @@ public class SelectorActivity extends Activity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_selector);
         initialize();
-    }
-
-    private void initialize() {
-        mPhotoAlbums = new ArrayList<PhotoAlbum>();
-        mPhotos = new ArrayList<Photo>();
-
-        String action = getIntent().getAction();
-        if (action == Const.ACTION_LOAD_PHOTO_SELECTOR) {
-            PhotoSelectGridFragment photoSelectGridFragment = new PhotoSelectGridFragment();
-
-            FragmentManager fragmentManager = getFragmentManager();
-            FragmentTransaction fragmentTransaction = fragmentManager
-                    .beginTransaction();
-            fragmentTransaction.replace(R.id.photoSelectorFragment,
-                    photoSelectGridFragment);
-            fragmentTransaction.commit();
-        } else if (action == Const.ACTION_LOAD_PHOTO_ALBUM_SELECTOR) {
-            PhotoAlbumSelectGridFragment photoAlbumSelectGridFragment = new PhotoAlbumSelectGridFragment();
-            FragmentManager fragmentManager = getFragmentManager();
-            FragmentTransaction fragmentTransaction = fragmentManager
-                    .beginTransaction();
-            fragmentTransaction.replace(R.id.photoSelectorFragment,
-                    photoAlbumSelectGridFragment);
-            fragmentTransaction.commit();
-        }
     }
 
     @Override
@@ -63,17 +38,6 @@ public class SelectorActivity extends Activity implements
         } else {
             super.onBackPressed();
         }
-    }
-
-    protected void setPhotosAndAlbums(List<Photo> photos,
-                                      List<PhotoAlbum> photoAlbums) {
-        mPhotos = photos;
-        mPhotoAlbums = photoAlbums;
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
     }
 
     @Override
@@ -104,6 +68,52 @@ public class SelectorActivity extends Activity implements
             fragmentTransaction.replace(R.id.photoSelectorFragment,
                     photoSelectGridFragment, FRAGMENT_PHOTO_SELECTOR);
             fragmentTransaction.addToBackStack(null);
+            fragmentTransaction.commit();
+        }
+    }
+
+    @Override
+    public void onPhotoSelectorClose() {
+        this.finish();
+    }
+
+    @Override
+    public void onPhotoAlbumSelectorClose() {
+        this.finish();
+    }
+
+    protected void setPhotosAndAlbums(List<Photo> photos,
+                                      List<PhotoAlbum> photoAlbums) {
+        mPhotos = photos;
+        mPhotoAlbums = photoAlbums;
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+    }
+
+    private void initialize() {
+        mPhotoAlbums = new ArrayList<PhotoAlbum>();
+        mPhotos = new ArrayList<Photo>();
+
+        String action = getIntent().getAction();
+        if (action == Const.ACTION_LOAD_PHOTO_SELECTOR) {
+            PhotoSelectGridFragment photoSelectGridFragment = new PhotoSelectGridFragment();
+
+            FragmentManager fragmentManager = getFragmentManager();
+            FragmentTransaction fragmentTransaction = fragmentManager
+                    .beginTransaction();
+            fragmentTransaction.replace(R.id.photoSelectorFragment,
+                    photoSelectGridFragment);
+            fragmentTransaction.commit();
+        } else if (action == Const.ACTION_LOAD_PHOTO_ALBUM_SELECTOR) {
+            PhotoAlbumSelectGridFragment photoAlbumSelectGridFragment = new PhotoAlbumSelectGridFragment();
+            FragmentManager fragmentManager = getFragmentManager();
+            FragmentTransaction fragmentTransaction = fragmentManager
+                    .beginTransaction();
+            fragmentTransaction.replace(R.id.photoSelectorFragment,
+                    photoAlbumSelectGridFragment);
             fragmentTransaction.commit();
         }
     }
