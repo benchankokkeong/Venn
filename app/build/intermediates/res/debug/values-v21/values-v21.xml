@@ -2,7 +2,7 @@
 <resources>
     <!-- From: file:/Users/ben/StudioProjects/Venn/app/src/main/res/values-v21/styles.xml -->
     <eat-comment/>
-    <style name="AppBaseTheme" parent="android:Theme.Material">
+    <style name="AppBaseTheme" parent="android:Theme.Material.Light">
         <!-- API 21 theme customizations can go here. -->
         <item name="android:colorPrimaryDark">@color/federation_statusbar_blue</item>
     </style>
@@ -17,14 +17,5 @@
         <item name="android:stateListAnimator">@anim/fab_selector</item>
         <item name="android:layout_width">56dp</item>
         <item name="android:layout_height">56dp</item>
-    </style>
-    <style name="Toolbar" parent="android:Widget.Material.PopupMenu.Overflow">
-        <item name="android:overlapAnchor">false</item>
-        <item name="android:dropDownVerticalOffset">50dip</item>
-        <item name="android:popupBackground">@color/federation_white</item>
-
-        <item name="android:actionMenuTextColor">@color/federation_black</item>
-        <item name="android:textColor">@color/federation_black</item>
-        <item name="android:textColorPrimary">@color/federation_black</item>
     </style>
 </resources>

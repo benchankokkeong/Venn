@@ -19,9 +19,10 @@ public final class R {
     }
     public static final class color {
         public static final int federation_black=0x7f080000;
-        public static final int federation_orange=0x7f080001;
-        public static final int federation_statusbar_blue=0x7f080002;
-        public static final int federation_white=0x7f080003;
+        public static final int federation_dark_orange=0x7f080001;
+        public static final int federation_orange=0x7f080002;
+        public static final int federation_statusbar_blue=0x7f080003;
+        public static final int federation_white=0x7f080004;
     }
     public static final class dimen {
         public static final int activity_horizontal_margin=0x7f070000;
@@ -36,40 +37,40 @@ public final class R {
         public static final int bg_alps_launch_slim=0x7f020002;
         public static final int button_plus=0x7f020003;
         public static final int drawer_shadow=0x7f020004;
-        public static final int federation_blue=0x7f020025;
-        public static final int federation_dark_orange=0x7f020026;
+        public static final int federation_blue=0x7f020026;
         public static final int floating_action_button_background=0x7f020005;
         public static final int help_button=0x7f020006;
-        public static final int ic_arrow_back_white_24dp=0x7f020007;
-        public static final int ic_close_white_24dp=0x7f020008;
-        public static final int ic_done_white_24dp=0x7f020009;
-        public static final int ic_drawer=0x7f02000a;
-        public static final int ic_launcher=0x7f02000b;
-        public static final int ic_share_white_24dp=0x7f02000c;
-        public static final int intro_1c=0x7f02000d;
-        public static final int intro_2c=0x7f02000e;
-        public static final int intro_3c=0x7f02000f;
-        public static final int intro_done_button=0x7f020010;
-        public static final int intro_page_indicator_default=0x7f020011;
-        public static final int intro_page_indicator_selected=0x7f020012;
-        public static final int main_background_layerlist=0x7f020013;
-        public static final int main_fab_background=0x7f020014;
-        public static final int main_menu_background=0x7f020015;
-        public static final int main_menu_button_background=0x7f020016;
-        public static final int main_portrait_2=0x7f020017;
-        public static final int main_portrait_background=0x7f020018;
-        public static final int open_photo_selector_button=0x7f020019;
-        public static final int photo_album_background_selector_state=0x7f02001a;
-        public static final int photo_album_grid_background=0x7f02001b;
-        public static final int photo_album_grid_background_pressed=0x7f02001c;
-        public static final int photo_album_grid_selector=0x7f02001d;
-        public static final int photo_album_name_selector_state=0x7f02001e;
-        public static final int photo_grid_selector_button_background=0x7f02001f;
-        public static final int photo_grid_selector_button_normal=0x7f020020;
-        public static final int select_deselect_all_button=0x7f020021;
-        public static final int select_grid_icon=0x7f020022;
-        public static final int select_yes_button=0x7f020023;
-        public static final int venn_logo_orange=0x7f020024;
+        public static final int ic_add_white_24dp=0x7f020007;
+        public static final int ic_arrow_back_white_24dp=0x7f020008;
+        public static final int ic_close_white_24dp=0x7f020009;
+        public static final int ic_done_white_24dp=0x7f02000a;
+        public static final int ic_drawer=0x7f02000b;
+        public static final int ic_launcher=0x7f02000c;
+        public static final int ic_share_white_24dp=0x7f02000d;
+        public static final int intro_1c=0x7f02000e;
+        public static final int intro_2c=0x7f02000f;
+        public static final int intro_3c=0x7f020010;
+        public static final int intro_done_button=0x7f020011;
+        public static final int intro_page_indicator_default=0x7f020012;
+        public static final int intro_page_indicator_selected=0x7f020013;
+        public static final int main_background_layerlist=0x7f020014;
+        public static final int main_fab_background=0x7f020015;
+        public static final int main_menu_background=0x7f020016;
+        public static final int main_menu_button_background=0x7f020017;
+        public static final int main_portrait_2=0x7f020018;
+        public static final int main_portrait_background=0x7f020019;
+        public static final int open_photo_selector_button=0x7f02001a;
+        public static final int photo_album_background_selector_state=0x7f02001b;
+        public static final int photo_album_grid_background=0x7f02001c;
+        public static final int photo_album_grid_background_pressed=0x7f02001d;
+        public static final int photo_album_grid_selector=0x7f02001e;
+        public static final int photo_album_name_selector_state=0x7f02001f;
+        public static final int photo_grid_selector_button_background=0x7f020020;
+        public static final int photo_grid_selector_button_normal=0x7f020021;
+        public static final int select_deselect_all_button=0x7f020022;
+        public static final int select_grid_icon=0x7f020023;
+        public static final int select_yes_button=0x7f020024;
+        public static final int venn_logo_orange=0x7f020025;
     }
     public static final class id {
         public static final int aboutButton=0x7f0a0014;
@@ -162,9 +163,8 @@ public final class R {
         
          */
         public static final int AppBaseTheme=0x7f060000;
-        public static final int AppTheme=0x7f060004;
+        public static final int AppTheme=0x7f060003;
         public static final int FloatingActionButton=0x7f060001;
         public static final int MainFloatingActionButton=0x7f060002;
-        public static final int Toolbar=0x7f060003;
     }
 }

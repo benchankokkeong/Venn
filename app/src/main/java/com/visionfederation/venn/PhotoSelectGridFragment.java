@@ -67,7 +67,7 @@ public class PhotoSelectGridFragment extends Fragment implements
         final View view = inflater.inflate(R.layout.fragment_photo_select_grid,
                 container, false);
 
-        getActivity().getWindow().setStatusBarColor(getResources().getColor(R.color.federation_black));
+        getActivity().getWindow().setStatusBarColor(getResources().getColor(R.color.federation_dark_orange));
 
         mGridView = (GridView) view.findViewById(R.id.photoSelectGridview);
         mGridView.setAdapter(mPhotoGridAdapter);

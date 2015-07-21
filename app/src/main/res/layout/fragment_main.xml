@@ -16,7 +16,6 @@
 
         <Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/toolbarMain"
-            style="@style/Toolbar"
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:layout_alignParentTop="true"
@@ -24,9 +23,8 @@
             android:elevation="5dp"
             android:gravity="center_vertical"
             android:minHeight="?android:attr/actionBarSize"
-            android:paddingRight="16dp">
-
-        </Toolbar>
+            android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar"
+            android:popupTheme="@android:style/ThemeOverlay.Material.Light"/>
 
         <ImageButton
             android:id="@+id/imageButtonFabMain"
@@ -49,7 +47,7 @@
             android:layout_below="@id/imageButtonFabMain"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp"
-            android:src="@drawable/button_plus"
+            android:src="@drawable/ic_add_white_24dp"
             android:visibility="invisible" />
     </RelativeLayout>
 

@@ -103,8 +103,6 @@ public class MainActivity extends Activity implements
     protected void onResume() {
         super.onResume();
 
-        Log.d("MainActivity.onResume", ">>>>>onResume called!");
-
         SharedPreferences sharedPreferences = PreferenceManager
                 .getDefaultSharedPreferences(this);
         mUserViewedIntro = sharedPreferences.getBoolean(PREF_USER_VIEWED_INTRO,
@@ -196,9 +194,18 @@ public class MainActivity extends Activity implements
 
             final Toolbar mToolbar = (Toolbar) rootView.findViewById(R.id.toolbarMain);
             mToolbar.inflateMenu(R.menu.main);
+            mToolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
+                @Override
+                public boolean onMenuItemClick(MenuItem menuItem) {
+                    int id = menuItem.getItemId();
+                    if (id == R.id.action_about) {
+                        launchAbout(context);
+                        return true;
+                    }
+                    return false;
+                }
+            });
 
-            final LinearLayout menuLinearLayout = (LinearLayout) rootView
-                    .findViewById(R.id.menuLinearLayout);
             final ImageButton addManualImageButton = (ImageButton) rootView
                     .findViewById(R.id.imageViewFabChildManualAddButton);
             if (addManualImageButton != null) {
@@ -208,7 +215,6 @@ public class MainActivity extends Activity implements
                             public void onClick(View v) {
                                 addManualImageButton
                                         .setVisibility(View.INVISIBLE);
-                                menuLinearLayout.setVisibility(View.INVISIBLE);
 
                                 Intent selectPhotoIntent = new Intent(context,
                                         SelectorActivity.class);
@@ -219,24 +225,6 @@ public class MainActivity extends Activity implements
                                         Const.RESULT_SELECTED_PHOTOS);
                             }
                         });
-            }
-
-            if (menuLinearLayout != null) {
-                ImageButton aboutImageButton = (ImageButton) menuLinearLayout
-                        .findViewById(R.id.aboutButton);
-                if (aboutImageButton != null) {
-                    aboutImageButton.setOnClickListener(new OnClickListener() {
-                        @Override
-                        public void onClick(View v) {
-                            addManualImageButton.setVisibility(View.INVISIBLE);
-                            menuLinearLayout.setVisibility(View.INVISIBLE);
-
-                            Intent aboutIntent = new Intent(context,
-                                    AboutActivity.class);
-                            startActivity(aboutIntent);
-                        }
-                    });
-                }
             }
 
             final ImageButton mainFabImageButton = (ImageButton) rootView.findViewById(R.id.imageButtonFabMain);
@@ -257,19 +245,6 @@ public class MainActivity extends Activity implements
                             addManualImageButton.startAnimation(topUp);
                             addManualImageButton.setVisibility(View.INVISIBLE);
                         }
-
-                        if (menuLinearLayout.getVisibility() == View.INVISIBLE) {
-                            Animation bottomUp = AnimationUtils.loadAnimation(
-                                    context, R.anim.menu_enter_bottom);
-                            menuLinearLayout.startAnimation(bottomUp);
-                            menuLinearLayout.setVisibility(View.VISIBLE);
-                        } else {
-                            Animation bottomDown = AnimationUtils
-                                    .loadAnimation(context,
-                                            R.anim.menu_exit_bottom);
-                            menuLinearLayout.startAnimation(bottomDown);
-                            menuLinearLayout.setVisibility(View.INVISIBLE);
-                        }
                     }
                 });
             }
@@ -288,8 +263,6 @@ public class MainActivity extends Activity implements
         public void onActivityResult(int requestCode, int resultCode,
                                      Intent data) {
             super.onActivityResult(requestCode, resultCode, data);
-            Log.d("MainActivity.onActivityResult", ">>>>>>result incoming: "
-                    + String.valueOf(resultCode));
             if (resultCode == Const.RESULT_SELECTED_PHOTOS) {
                 List<String> photoUriStringList = data
                         .getStringArrayListExtra(Const.FIELD_URI_STRING_LIST);
@@ -303,6 +276,12 @@ public class MainActivity extends Activity implements
                 }
             }
 
+        }
+
+        private void launchAbout(Context context) {
+            Intent aboutIntent = new Intent(context,
+                    AboutActivity.class);
+            startActivity(aboutIntent);
         }
     }
 
