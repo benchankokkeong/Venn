@@ -10,45 +10,45 @@
         android:layout_height="56dp"
         android:layout_alignParentTop="true"
         android:background="@color/federation_orange"
+        android:contentInsetStart="0dp"
         android:elevation="5dp"
         android:gravity="center_vertical"
         android:minHeight="?android:attr/actionBarSize"
-        android:paddingRight="16dp">
+        android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar">
 
         <ImageButton
             android:id="@+id/imageButtonClosePhotoSelector"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
             android:layout_gravity="right"
-            android:background="@drawable/ic_close_white_24dp"
-            android:padding="16dp" />
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_close_white_24dp" />
 
         <ImageButton
             android:id="@+id/imageButtonDeselectPhotoSelector"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
             android:layout_gravity="left"
-            android:background="@drawable/ic_arrow_back_white_24dp"
-            android:padding="16dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_arrow_back_white_24dp"
             android:visibility="invisible" />
 
         <TextView
             android:id="@+id/textViewSelectedCounter"
             style="@android:style/TextAppearance.Medium"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
             android:gravity="center"
-            android:padding="16dp"
             android:textColor="@color/federation_white"
             android:visibility="invisible" />
 
         <ImageButton
             android:id="@+id/imageButtonAcceptSelectedPhotos"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
             android:layout_gravity="left"
-            android:background="@drawable/ic_done_white_24dp"
-            android:padding="16dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_done_white_24dp"
             android:visibility="invisible" />
 
     </Toolbar>
