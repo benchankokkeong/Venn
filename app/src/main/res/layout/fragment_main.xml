@@ -3,33 +3,35 @@
     android:id="@+id/mainRelativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.visionfederation.venn.MainActivity$PlaceholderFragment">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:gravity="center"
-        android:paddingBottom="10dp"
         android:clipToPadding="false"
-        android:orientation="vertical">
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
 
-        <!--
-        <ImageView
-            android:id="@+id/imageViewMain"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="50dp"
-            android:background="@drawable/main_portrait_2" />
-            -->
+        <Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/toolbarMain"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/transparent"
+            android:elevation="5dp"
+            android:gravity="center_vertical"
+            android:minHeight="?android:attr/actionBarSize"
+            android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar"
+            android:popupTheme="@android:style/ThemeOverlay.Material.Light"/>
 
         <ImageButton
             android:id="@+id/imageButtonFabMain"
             style="@style/MainFloatingActionButton"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_below="@+id/toolbarMain"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
             android:adjustViewBounds="true"
@@ -38,14 +40,14 @@
             android:src="@drawable/venn_logo_orange" />
 
         <ImageButton
-            android:id="@+id/imageViewSelectButton"
+            android:id="@+id/imageViewFabChildManualAddButton"
             style="@style/FloatingActionButton"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_below="@id/imageButtonFabMain"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp"
-            android:src="@drawable/button_plus"
+            android:src="@drawable/ic_add_white_24dp"
             android:visibility="invisible" />
     </RelativeLayout>
 
