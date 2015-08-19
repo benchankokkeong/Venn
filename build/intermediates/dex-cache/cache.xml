@@ -2,18 +2,18 @@
 <items version="2" >
 
     <item
-        jar="/Users/ben/StudioProjects/Venn/app/libs/pinchzoom.jar"
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/libs/pinchzoom.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="a4def992b1f41525748db059dfdd21322cc3157e">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/pinchzoom-af9495290cc24605375a491a7902e30904814dce.jar" />
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/pinchzoom-ec9fc94b646ade82dfbef0519786730d173234a2.jar" />
     </item>
     <item
-        jar="/Users/ben/StudioProjects/Venn/app/libs/android-support-v13.jar"
+        jar="/Users/kokkeongchan/StudioProjects/Venn/app/libs/android-support-v13.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="f5fa2183e286730a81f3076f19022539902a24f3">
-        <dex dex="/Users/ben/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/android-support-v13-6d84a39702a750921ea53dd90e48f13d5be8634d.jar" />
+        <dex dex="/Users/kokkeongchan/StudioProjects/Venn/app/build/intermediates/pre-dexed/debug/android-support-v13-d1155e4e56daa92d97c788e897697715c99fbf05.jar" />
     </item>
 
 </items>

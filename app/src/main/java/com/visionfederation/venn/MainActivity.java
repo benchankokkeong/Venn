@@ -185,12 +185,13 @@ public class MainActivity extends Activity implements
             final Context context = getActivity();
             final View rootView = inflater.inflate(R.layout.fragment_main,
                     container, false);
+            /*
             final RelativeLayout mainRelativeLayout = (RelativeLayout) rootView
                     .findViewById(R.id.mainRelativeLayout);
             if (mainRelativeLayout != null) {
                 mainRelativeLayout.setBackground(getActivity().getResources()
                         .getDrawable(R.drawable.bg_alps_2));
-            }
+            }*/
 
             final Toolbar mToolbar = (Toolbar) rootView.findViewById(R.id.toolbarMain);
             mToolbar.inflateMenu(R.menu.main);

@@ -10,7 +10,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_margin="50dp"
-        android:background="@drawable/venn_logo_orange" />
+        android:background="@drawable/only_flat_logo" />
 
     <TextView
         android:layout_width="match_parent"
@@ -47,4 +47,4 @@
         android:textColor="@android:color/black"
         android:text="@string/link_vision_federation" />
 
-</LinearLayout><!-- From: file:/Users/ben/StudioProjects/Venn/app/src/main/res/layout/activity_about.xml -->
+</LinearLayout><!-- From: file:/Users/kokkeongchan/StudioProjects/Venn/app/src/main/res/layout/activity_about.xml -->

@@ -10,7 +10,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_margin="50dp"
-        android:background="@drawable/venn_logo_orange" />
+        android:background="@drawable/only_flat_logo" />
 
     <TextView
         android:layout_width="match_parent"

@@ -3,6 +3,7 @@
     android:id="@+id/mainRelativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/federation_darkgray"
     tools:context="com.visionfederation.venn.MainActivity$PlaceholderFragment">
 
     <RelativeLayout
@@ -23,8 +24,8 @@
             android:elevation="5dp"
             android:gravity="center_vertical"
             android:minHeight="?android:attr/actionBarSize"
-            android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar"
-            android:popupTheme="@android:style/ThemeOverlay.Material.Light"/>
+            android:popupTheme="@android:style/ThemeOverlay.Material.Light"
+            android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar"/>
 
         <ImageButton
             android:id="@+id/imageButtonFabMain"
@@ -35,9 +36,10 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
             android:adjustViewBounds="true"
-            android:padding="20dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
             android:scaleType="fitCenter"
-            android:src="@drawable/venn_logo_orange" />
+            android:src="@drawable/only_flat_logo"
+            />
 
         <ImageButton
             android:id="@+id/imageViewFabChildManualAddButton"
