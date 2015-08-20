@@ -22,9 +22,11 @@ public final class R {
         public static final int federation_dark_orange=0x7f080001;
         public static final int federation_darkgray=0x7f080002;
         public static final int federation_darkgray_status=0x7f080003;
-        public static final int federation_orange=0x7f080004;
-        public static final int federation_orange_accent=0x7f080005;
-        public static final int federation_white=0x7f080006;
+        public static final int federation_gray=0x7f080004;
+        public static final int federation_lightgray=0x7f080005;
+        public static final int federation_orange=0x7f080006;
+        public static final int federation_orange_accent=0x7f080007;
+        public static final int federation_white=0x7f080008;
     }
     public static final class dimen {
         public static final int activity_horizontal_margin=0x7f070000;
@@ -49,9 +51,9 @@ public final class R {
         public static final int ic_drawer=0x7f02000b;
         public static final int ic_launcher=0x7f02000c;
         public static final int ic_share_white_24dp=0x7f02000d;
-        public static final int intro_1c=0x7f02000e;
-        public static final int intro_2c=0x7f02000f;
-        public static final int intro_3c=0x7f020010;
+        public static final int intro_1d=0x7f02000e;
+        public static final int intro_2d=0x7f02000f;
+        public static final int intro_3d=0x7f020010;
         public static final int intro_done_button=0x7f020011;
         public static final int intro_page_indicator_default=0x7f020012;
         public static final int intro_page_indicator_selected=0x7f020013;
@@ -91,7 +93,7 @@ public final class R {
         public static final int imageButtonFabMain=0x7f0a0011;
         public static final int imageViewAlbumBackground=0x7f0a0023;
         public static final int imageViewFabChildManualAddButton=0x7f0a0012;
-        public static final int introDoneButton=0x7f0a0005;
+        public static final int introDoneTextView=0x7f0a0005;
         public static final int introFirstImageView=0x7f0a000c;
         public static final int introSecondImageView=0x7f0a000d;
         public static final int introThirdImageView=0x7f0a000e;
@@ -153,6 +155,7 @@ public final class R {
         public static final int link_vision_federation=0x7f050005;
         public static final int navigation_drawer_close=0x7f050006;
         public static final int navigation_drawer_open=0x7f050007;
+        public static final int ok=0x7f05000c;
         public static final int title_section1=0x7f050008;
         public static final int title_section2=0x7f050009;
         public static final int title_section3=0x7f05000a;

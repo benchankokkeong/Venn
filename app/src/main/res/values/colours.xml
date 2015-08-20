@@ -8,5 +8,7 @@
     <color name="federation_darkgray">#494949</color>
     <color name="federation_darkgray_status">#455A64</color>
     <color name="federation_orange_accent">#F96F4A</color>
+    <color name="federation_lightgray">#D4D4D4</color>
+    <color name="federation_gray">#5B5B5B</color>
 
 </resources>

@@ -10,10 +10,11 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 public class IntroductionActivity extends Activity {
 
-	private ImageView mIntroDoneButton;
+	private TextView mIntroDoneTextView;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -25,15 +26,15 @@ public class IntroductionActivity extends Activity {
 		final LinearLayout thirdIndicatorLayout = (LinearLayout) findViewById(R.id.thirdIndicatorLayout);
 
 		final Activity thisActivity = this;
-		mIntroDoneButton = (ImageView) findViewById(R.id.introDoneButton);
-		mIntroDoneButton.setOnClickListener(new View.OnClickListener() {
+
+		mIntroDoneTextView = (TextView) findViewById(R.id.introDoneTextView);
+		mIntroDoneTextView.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				animateDoneButtonExit();
-				mIntroDoneButton.setVisibility(View.INVISIBLE);
 				thisActivity.finish();
 			}
 		});
+
 
 		ViewPager viewPager = (ViewPager) findViewById(R.id.introViewPager);
 		viewPager.setOnPageChangeListener(new OnPageChangeListener() {
@@ -53,29 +54,29 @@ public class IntroductionActivity extends Activity {
 					firstIndicatorLayout.setVisibility(View.VISIBLE);
 					secondIndicatorLayout.setVisibility(View.GONE);
 					thirdIndicatorLayout.setVisibility(View.GONE);
-					mIntroDoneButton.setVisibility(View.INVISIBLE);
+					mIntroDoneTextView.setVisibility(View.INVISIBLE);
 					break;
 				case 1:
 					firstIndicatorLayout.setVisibility(View.GONE);
 					secondIndicatorLayout.setVisibility(View.VISIBLE);
 					thirdIndicatorLayout.setVisibility(View.GONE);
-					if (mIntroDoneButton.getVisibility() == View.VISIBLE) {
+					if (mIntroDoneTextView.getVisibility() == View.VISIBLE) {
 						animateDoneButtonExit();
 					}
-					mIntroDoneButton.setVisibility(View.INVISIBLE);
+					mIntroDoneTextView.setVisibility(View.INVISIBLE);
 					break;
 				case 2:
 					firstIndicatorLayout.setVisibility(View.GONE);
 					secondIndicatorLayout.setVisibility(View.GONE);
 					thirdIndicatorLayout.setVisibility(View.VISIBLE);
 					animateDoneButtonEntry();
-					mIntroDoneButton.setVisibility(View.VISIBLE);
+					mIntroDoneTextView.setVisibility(View.VISIBLE);
 					break;
 				default:
 					firstIndicatorLayout.setVisibility(View.GONE);
 					secondIndicatorLayout.setVisibility(View.GONE);
 					thirdIndicatorLayout.setVisibility(View.GONE);
-					mIntroDoneButton.setVisibility(View.VISIBLE);
+					mIntroDoneTextView.setVisibility(View.VISIBLE);
 				}
 			}
 
@@ -88,12 +89,12 @@ public class IntroductionActivity extends Activity {
 	private void animateDoneButtonEntry() {
 		Animation bottomUp = AnimationUtils.loadAnimation(this,
 				R.anim.menu_enter_bottom);
-		mIntroDoneButton.startAnimation(bottomUp);
+		mIntroDoneTextView.startAnimation(bottomUp);
 	}
 
 	private void animateDoneButtonExit() {
 		Animation bottomDown = AnimationUtils.loadAnimation(this,
 				R.anim.menu_exit_bottom);
-		mIntroDoneButton.startAnimation(bottomDown);
+		mIntroDoneTextView.startAnimation(bottomDown);
 	}
 }

@@ -23,11 +23,8 @@ public class IntroductionFirstFragment extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		Log.d("IntroductionFirstFragment.onCreateView",
-				">>>>>>inflating view.....");
 		View view = (View) inflater.inflate(
 				R.layout.fragment_introduction_first, container, false);
-		Log.d("IntroductionFirstFragment.onCreateView", ">>>>>>view inflated!");
 		return view;
 	}
 }

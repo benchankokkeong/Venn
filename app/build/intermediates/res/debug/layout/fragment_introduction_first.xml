@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2E8DCF"
+    android:background="@color/federation_white"
     android:gravity="center"
     android:orientation="vertical" >
 
@@ -12,6 +12,6 @@
         android:layout_height="wrap_content"
         android:background="#2E8DCF"
         android:scaleType="centerCrop"
-        android:src="@drawable/intro_1c" />
+        android:src="@drawable/intro_1d" />
 
 </LinearLayout><!-- From: file:/Users/kokkeongchan/StudioProjects/Venn/app/src/main/res/layout/fragment_introduction_first.xml -->
