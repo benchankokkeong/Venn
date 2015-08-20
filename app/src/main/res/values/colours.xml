@@ -6,5 +6,7 @@
     <color name="federation_white">#FFFFFF</color>
     <color name="federation_orange">#FF5722</color>
     <color name="federation_darkgray">#494949</color>
+    <color name="federation_darkgray_status">#455A64</color>
+    <color name="federation_orange_accent">#F96F4A</color>
 
 </resources>

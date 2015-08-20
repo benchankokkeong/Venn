@@ -7,7 +7,7 @@
     -->
     <style name="AppBaseTheme" parent="android:Theme.Material.Light">
         <!-- API 21 theme customizations can go here. -->
-        <item name="android:colorPrimaryDark">@color/federation_black</item>
+        <item name="android:colorPrimaryDark">@color/federation_darkgray_status</item>
     </style>
 
     <style name="MainFloatingActionButton" parent="android:Widget.Material.Button">

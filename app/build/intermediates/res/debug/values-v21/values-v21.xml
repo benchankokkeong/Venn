@@ -4,7 +4,7 @@
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Material.Light">
         <!-- API 21 theme customizations can go here. -->
-        <item name="android:colorPrimaryDark">@color/federation_black</item>
+        <item name="android:colorPrimaryDark">@color/federation_darkgray_status</item>
     </style>
     <style name="FloatingActionButton" parent="android:Widget.Material.Button">
         <item name="android:background">@drawable/floating_action_button_background</item>
