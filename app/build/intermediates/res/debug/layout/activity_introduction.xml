@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2E8DCF"
+    android:background="@color/federation_white"
     android:gravity="center_horizontal"
     android:orientation="vertical" >
 
@@ -10,8 +10,8 @@
         android:id="@+id/introViewPager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.7"
-        android:background="#2E8DCF" >
+        android:layout_weight="0.6"
+        android:background="@color/federation_white" >
     </android.support.v4.view.ViewPager>
 
     <LinearLayout
@@ -94,12 +94,17 @@
             android:background="@drawable/intro_page_indicator_selected" />
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/introDoneButton"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_margin="20dp"
-        android:src="@drawable/intro_done_button"
-        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/introDoneTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:gravity="center"
+        android:text="@string/ok"
+        android:textColor="@color/federation_orange_accent"
+        android:textSize="20sp"
+        android:visibility="invisible"/>
 
-</LinearLayout><!-- From: file:/Users/ben/StudioProjects/Venn/app/src/main/res/layout/activity_introduction.xml -->
+</LinearLayout><!-- From: file:/Users/kokkeongchan/StudioProjects/Venn/app/src/main/res/layout/activity_introduction.xml -->

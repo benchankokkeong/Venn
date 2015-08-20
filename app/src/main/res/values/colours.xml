@@ -1,10 +1,14 @@
 <resources>
 
     <drawable name="federation_blue">#2D8DCF</drawable>
-    <drawable name="federation_dark_orange">#EF613D</drawable>
-    <color name="federation_statusbar_blue">#0288D1</color>
+    <color name="federation_dark_orange">#E64A19</color>
     <color name="federation_black">#000000</color>
     <color name="federation_white">#FFFFFF</color>
-    <color name="federation_orange">#EF613D</color>
+    <color name="federation_orange">#FF5722</color>
+    <color name="federation_darkgray">#494949</color>
+    <color name="federation_darkgray_status">#455A64</color>
+    <color name="federation_orange_accent">#F96F4A</color>
+    <color name="federation_lightgray">#D4D4D4</color>
+    <color name="federation_gray">#5B5B5B</color>
 
 </resources>

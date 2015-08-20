@@ -12,7 +12,7 @@ public class AboutActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_about);
 
-		getWindow().setStatusBarColor(getResources().getColor(R.color.federation_orange));
+		getWindow().setStatusBarColor(getResources().getColor(R.color.federation_darkgray_status));
 
 		TextView versionTextView = (TextView) findViewById(R.id.versionTextView);
 		if (versionTextView != null) {

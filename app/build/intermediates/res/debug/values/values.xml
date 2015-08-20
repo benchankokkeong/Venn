@@ -1,36 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/ben/StudioProjects/Venn/app/src/main/res/values/colours.xml -->
+    <!-- From: file:/Users/kokkeongchan/StudioProjects/Venn/app/src/main/res/values/colours.xml -->
     <eat-comment/>
     <color name="federation_black">#000000</color>
-    <color name="federation_orange">#EF613D</color>
-    <color name="federation_statusbar_blue">#0288D1</color>
+    <color name="federation_dark_orange">#E64A19</color>
+    <color name="federation_darkgray">#494949</color>
+    <color name="federation_darkgray_status">#455A64</color>
+    <color name="federation_gray">#5B5B5B</color>
+    <color name="federation_lightgray">#D4D4D4</color>
+    <color name="federation_orange">#FF5722</color>
+    <color name="federation_orange_accent">#F96F4A</color>
     <color name="federation_white">#FFFFFF</color>
-    <!-- From: file:/Users/ben/StudioProjects/Venn/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/kokkeongchan/StudioProjects/Venn/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="end_z">4dp</dimen>
     <dimen name="navigation_drawer_width">240dp</dimen>
     <dimen name="start_z">2dp</dimen>
-    <!-- From: file:/Users/ben/StudioProjects/Venn/app/src/main/res/values/colours.xml -->
+    <!-- From: file:/Users/kokkeongchan/StudioProjects/Venn/app/src/main/res/values/colours.xml -->
     <eat-comment/>
     <drawable name="federation_blue">#2D8DCF</drawable>
-    <drawable name="federation_dark_orange">#EF613D</drawable>
-    <!-- From: file:/Users/ben/StudioProjects/Venn/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/kokkeongchan/StudioProjects/Venn/app/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="about">About</string>
     <string name="action_example">Example action</string>
     <string name="action_settings">Settings</string>
-    <string name="app_name">Venn</string>
-    <string name="link_venn">venn.visionfederation.com</string>
+    <string name="app_name">Only</string>
+    <string name="link_venn">visionfederation.com</string>
     <string name="link_vision_federation">\u00A9 2015 VisionFederation.com</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="ok">OK</string>
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
     <string name="version">Version: </string>
-    <!-- From: file:/Users/ben/StudioProjects/Venn/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/kokkeongchan/StudioProjects/Venn/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
@@ -44,6 +50,6 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
         <item name="android:windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
-        <item name="android:windowBackground">@drawable/federation_blue</item>
+        <item name="android:windowBackground">@color/federation_darkgray</item>
     </style>
 </resources>

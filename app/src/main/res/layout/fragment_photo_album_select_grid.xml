@@ -2,20 +2,42 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical">
+
+    <Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbarPhotoAlbumSelector"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/federation_orange_accent"
+        android:contentInsetStart="0dp"
+        android:elevation="5dp"
+        android:gravity="center_vertical"
+        android:minHeight="?android:attr/actionBarSize"
+        android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar">
+
+        <ImageButton
+            android:id="@+id/imageButtonClosePhotoAlbumSelector"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_close_white_24dp" />
+
+    </Toolbar>
 
     <GridView
         android:id="@+id/photoAlbumSelectGridview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@+id/toolbarPhotoAlbumSelector"
         android:animateLayoutChanges="true"
-        android:background="#000000"
+        android:background="@color/federation_darkgray"
         android:drawSelectorOnTop="true"
         android:gravity="center"
         android:horizontalSpacing="0dp"
         android:numColumns="2"
         android:stretchMode="columnWidth"
-        android:verticalSpacing="0dp"
-        />
+        android:verticalSpacing="0dp" />
 
 </RelativeLayout>

@@ -8,4 +8,4 @@
         android:interpolator="@android:anim/linear_interpolator"
         android:toYDelta="100%p" />
 
-</set><!-- From: file:/Users/ben/StudioProjects/Venn/app/src/main/res/anim/menu_exit_bottom.xml -->
+</set><!-- From: file:/Users/kokkeongchan/StudioProjects/Venn/app/src/main/res/anim/menu_exit_bottom.xml -->
